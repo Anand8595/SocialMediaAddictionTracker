@@ -86,43 +86,57 @@ git clone https://github.com/Anand8595/SocialMediaAddictionTracker.git
 
 ## 🏠 Home Screen
 
-![Home Screen](home1.jpeg)
+<p align="center">
+  <img src="home1.jpeg" alt="Home Screen" width="350"/>
+</p>
 
 ---
 
 ## 🎯 Focus Mode
 
-![Focus Mode](focus_mode.jpeg)
+<p align="center">
+  <img src="focus_mode.jpeg" alt="Focus Mode" width="350"/>
+</p>
 
 ---
 
 ## 😊 Mood Tracker
 
-![Mood Tracker](save_mood.jpeg)
+<p align="center">
+  <img src="save_mood.jpeg" alt="Mood Tracker" width="350"/>
+</p>
 
 ---
 
 ## 📊 Digital Insights
 
-![Digital Insights](digital_insights.jpeg)
+<p align="center">
+  <img src="digital_insights.jpeg" alt="Digital Insights" width="350"/>
+</p>
 
 ---
 
 ## 🏆 Rewards
 
-![Rewards](daily_rewards.jpeg)
+<p align="center">
+  <img src="daily_rewards.jpeg" alt="Rewards" width="350"/>
+</p>
 
 ---
 
 ## 📈 Usage Report
 
-![Usage Report](usage_report.jpeg)
+<p align="center">
+  <img src="usage_report.jpeg" alt="Usage Report" width="350"/>
+</p>
 
 ---
 
 ## 🛒 Shopping Website
 
-![Shopping Website](shopping_website.jpeg)
+<p align="center">
+  <img src="shopping_website.jpeg" alt="Shopping Website" width="350"/>
+</p>
 
 ---
 
