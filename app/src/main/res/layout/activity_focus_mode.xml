@@ -1,0 +1,189 @@
+<RelativeLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@drawable/bg_gradient">
+    <ScrollView
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:layout_above="@id/bottomNavigation">
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="vertical"
+        android:padding="20dp">
+
+        <!-- HEADER -->
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Focus Mode"
+            android:textSize="22sp"
+            android:textStyle="bold"
+            android:textColor="#FFFFFF"
+            android:layout_marginBottom="18dp"/>
+
+        <!-- HERO CARD -->
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="170dp"
+            android:orientation="vertical"
+            android:gravity="center"
+            android:background="@drawable/bg_glass_card"
+            android:padding="20dp"
+            android:layout_marginBottom="18dp">
+
+            <TextView
+                android:id="@+id/tvStatus"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="😴 Not Focused"
+                android:textSize="15sp"
+                android:textColor="#E0E0E0"/>
+
+            <TextView
+                android:id="@+id/tvTimer"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="15:00"
+                android:textSize="44sp"
+                android:textStyle="bold"
+                android:textColor="#FFD54F"
+                android:layout_marginTop="8dp"/>
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="No distractions. Just progress."
+                android:textSize="12sp"
+                android:textColor="#B0BEC5"
+                android:layout_marginTop="6dp"/>
+        </LinearLayout>
+
+        <!-- DURATION CARD -->
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="vertical"
+            android:background="@drawable/bg_glass_card"
+            android:padding="16dp"
+            android:layout_marginBottom="16dp">
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="⏱ Select Duration"
+                android:textSize="13sp"
+                android:textColor="#E0E0E0"
+                android:layout_marginBottom="10dp"/>
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="48dp"
+                android:orientation="horizontal"
+                android:background="#22FFFFFF"
+                android:padding="4dp">
+
+                <Button
+                    android:id="@+id/btn15"
+                    android:layout_width="0dp"
+                    android:layout_height="match_parent"
+                    android:layout_weight="1"
+                    android:text="15m"
+                    android:textColor="@color/btn_text_selector"
+                    android:background="@drawable/btn_duration_selector"
+                    android:backgroundTint="@null"/>
+
+                <Button
+                    android:id="@+id/btn30"
+                    android:layout_width="0dp"
+                    android:layout_height="match_parent"
+                    android:layout_weight="1"
+                    android:text="30m"
+                    android:textColor="@color/btn_text_selector"
+                    android:background="@drawable/btn_duration_selector"
+                    android:backgroundTint="@null"/>
+
+                <Button
+                    android:id="@+id/btn60"
+                    android:layout_width="0dp"
+                    android:layout_height="match_parent"
+                    android:layout_weight="1"
+                    android:text="60m"
+                    android:textColor="@color/btn_text_selector"
+                    android:background="@drawable/btn_duration_selector"
+                    android:backgroundTint="@null"/>
+            </LinearLayout>
+
+        </LinearLayout>
+
+        <!-- CUSTOM INPUT -->
+        <EditText
+            android:id="@+id/etCustomTime"
+            android:layout_width="match_parent"
+            android:layout_height="52dp"
+            android:hint="Custom minutes"
+            android:textColor="#FFFFFF"
+            android:textColorHint="#B0BEC5"
+            android:background="@drawable/bg_input_dark"
+            android:padding="14dp"
+            android:layout_marginBottom="6dp"/>
+
+        <TextView
+            android:id="@+id/tvDefaultTime"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Default focus time: 15 min"
+            android:textSize="12sp"
+            android:textColor="#B0BEC5"
+            android:layout_marginBottom="18dp"/>
+
+        <!-- START BUTTON -->
+        <Button
+            android:id="@+id/btnStartLock"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="Start Focus Mode"
+            android:textStyle="bold"
+            android:textColor="@android:color/white"
+            android:background="@drawable/bg_btn_blue"
+            android:backgroundTint="@null"
+            android:layout_marginBottom="12dp"/>
+
+        <!-- SELECT APPS -->
+        <Button
+            android:id="@+id/btnSelectApps"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="Select Apps"
+            android:textStyle="bold"
+            android:textColor="@android:color/white"
+            android:background="@drawable/bg_btn_purple"
+            android:backgroundTint="@null"
+            android:layout_marginBottom="12dp"/>
+
+        <!-- EMERGENCY -->
+        <Button
+            android:id="@+id/btnUnlock"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="Emergency Unlock"
+            android:textStyle="bold"
+            android:textColor="@android:color/white"
+            android:background="@drawable/bg_btn_red"
+            android:backgroundTint="@null"/>
+
+    </LinearLayout>
+    </ScrollView>
+
+    <com.google.android.material.bottomnavigation.BottomNavigationView
+        android:id="@+id/bottomNavigation"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_alignParentBottom="true"
+        android:background="#AA3A2D6F"
+        app:itemIconTint="@color/white"
+        app:itemTextColor="@color/white"
+        app:menu="@menu/bottom_nav_focus"/>
+</RelativeLayout>

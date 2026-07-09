@@ -1,0 +1,33 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android">
+
+    <item
+        android:id="@+id/nav_home"
+        android:icon="@android:drawable/ic_menu_view"
+        android:title="Home"/>
+
+    <item
+        android:id="@+id/nav_reports"
+        android:icon="@android:drawable/ic_menu_agenda"
+        android:title="Reports"/>
+
+<!--    <item-->
+<!--        android:id="@+id/nav_compare"-->
+<!--        android:icon="@android:drawable/ic_menu_sort_by_size"-->
+<!--        android:title="Compare"/>-->
+
+    <item
+        android:id="@+id/nav_rewards"
+        android:icon="@android:drawable/star_big_on"
+        android:title="Rewards"/>
+
+    <item
+        android:id="@+id/nav_focus"
+        android:icon="@android:drawable/ic_lock_idle_lock"
+        android:title="Focus"/>
+    <item
+        android:id="@+id/nav_logout"
+        android:icon="@android:drawable/ic_lock_power_off"
+        android:title="Logout"/>
+
+</menu>

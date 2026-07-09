@@ -1,0 +1,145 @@
+<RelativeLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@drawable/bg_gradient">
+    <ScrollView
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:layout_above="@id/bottomNavigation">
+
+    <LinearLayout
+        android:id="@+id/main"
+        android:orientation="vertical"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:padding="20dp">
+
+        <!-- TITLE -->
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="How are you feeling today?"
+            android:textSize="20sp"
+            android:textStyle="bold"
+            android:textColor="#FFFFFF"
+            android:layout_marginBottom="16dp"/>
+
+        <!-- MOOD CARD -->
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="vertical"
+            android:background="@drawable/bg_glass_card"
+            android:padding="16dp"
+            android:layout_marginBottom="16dp">
+
+            <RadioGroup
+                android:id="@+id/moodGroup"
+                android:orientation="vertical"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content">
+
+                <RadioButton
+                    android:id="@+id/mood_happy"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:text="😊 Happy"
+                    android:textSize="16sp"
+                    android:textColor="#FFFFFF"
+                    android:padding="10dp"/>
+
+                <RadioButton
+                    android:id="@+id/mood_neutral"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:text="😐 Neutral"
+                    android:textSize="16sp"
+                    android:textColor="#FFFFFF"
+                    android:padding="10dp"/>
+
+                <RadioButton
+                    android:id="@+id/mood_sad"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:text="😞 Sad"
+                    android:textSize="16sp"
+                    android:textColor="#FFFFFF"
+                    android:padding="10dp"/>
+
+            </RadioGroup>
+        </LinearLayout>
+
+        <!-- SAVE BUTTON -->
+        <Button
+            android:id="@+id/btnSaveMood"
+            android:layout_width="match_parent"
+            android:layout_height="55dp"
+            android:text="Save Mood"
+            android:textStyle="bold"
+            android:textColor="@android:color/white"
+            android:background="@drawable/bg_btn_blue"
+            android:backgroundTint="@null"
+            android:layout_marginBottom="20dp"/>
+
+        <!-- CHART CARD -->
+        <com.google.android.material.card.MaterialCardView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="16dp"
+            android:layout_marginBottom="16dp"
+            app:cardCornerRadius="24dp"
+            app:cardElevation="8dp"
+            android:backgroundTint="#1AFFFFFF">
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:padding="16dp"
+                android:orientation="vertical">
+
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text="📊 App Usage Summary"
+                    android:textColor="#FFFFFF"
+                    android:textSize="16sp"
+                    android:textStyle="bold"
+                    android:layout_marginBottom="10dp"/>
+
+                <com.github.mikephil.charting.charts.LineChart
+                    android:id="@+id/lineChart"
+                    android:layout_width="match_parent"
+                    android:layout_height="280dp"/>
+
+            </LinearLayout>
+
+        </com.google.android.material.card.MaterialCardView>
+
+        <!-- SUMMARY CARD -->
+        <TextView
+            android:id="@+id/tvSummary"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:textColor="#FFFFFF"
+            android:textSize="16sp"
+            android:gravity="center"
+            android:background="@drawable/bg_glass_card"
+            android:padding="16dp"/>
+
+    </LinearLayout>
+
+
+    </ScrollView>
+
+    <com.google.android.material.bottomnavigation.BottomNavigationView
+        android:id="@+id/bottomNavigation"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_alignParentBottom="true"
+        android:background="#AA3A2D6F"
+        app:itemIconTint="@color/white"
+        app:itemTextColor="@color/white"
+        app:menu="@menu/bottom_nav_reports"/>
+</RelativeLayout>

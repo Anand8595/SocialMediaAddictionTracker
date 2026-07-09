@@ -1,0 +1,110 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:orientation="vertical"
+    android:background="#F8F9FA"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:padding="20dp">
+
+    <TextView
+        android:id="@+id/tvTodayUsage"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="📱 Today’s Screen Time: 0 min"
+        android:textSize="20sp"
+        android:textStyle="bold"
+        android:textColor="#1A237E"
+        android:layout_marginBottom="16dp" />
+
+    <TextView
+        android:id="@+id/tvPoints"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="⭐ Points: 0"
+        android:textSize="20sp"
+        android:textColor="#E65100"
+        android:layout_marginBottom="12dp" />
+
+    <TextView
+        android:id="@+id/tvBadge"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="🏅 Badge"
+        android:textSize="22sp"
+        android:textColor="#4CAF50"
+        android:textStyle="bold"
+        android:layout_marginBottom="20dp" />
+
+    <TextView
+        android:id="@+id/tvMessage"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="🎮 Track your screen time and earn rewards!"
+        android:textSize="16sp"
+        android:textColor="#444"
+        android:layout_marginTop="10dp" />
+
+    <!-- ✅ FIXED LIST VIEW -->
+    <ListView
+        android:id="@+id/listRewards"
+        android:layout_width="match_parent"
+        android:layout_height="0dp"
+        android:layout_weight="1"
+        android:layout_marginTop="20dp"/>
+
+</LinearLayout>
+
+<!--<?xml version="1.0" encoding="utf-8"?>-->
+<!--<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"-->
+<!--    android:orientation="vertical"-->
+<!--    android:gravity="center"-->
+<!--    android:background="#F8F9FA"-->
+<!--    android:layout_width="match_parent"-->
+<!--    android:layout_height="match_parent"-->
+<!--    android:padding="20dp">-->
+
+<!--    <TextView-->
+<!--        android:id="@+id/tvTodayUsage"-->
+<!--        android:layout_width="wrap_content"-->
+<!--        android:layout_height="wrap_content"-->
+<!--        android:text="📱 Today’s Screen Time: 0 min"-->
+<!--        android:textSize="20sp"-->
+<!--        android:textStyle="bold"-->
+<!--        android:textColor="#1A237E"-->
+<!--        android:layout_marginBottom="16dp" />-->
+
+<!--    <TextView-->
+<!--        android:id="@+id/tvPoints"-->
+<!--        android:layout_width="wrap_content"-->
+<!--        android:layout_height="wrap_content"-->
+<!--        android:text="⭐ Points: 0"-->
+<!--        android:textSize="20sp"-->
+<!--        android:textColor="#E65100"-->
+<!--        android:layout_marginBottom="12dp" />-->
+
+<!--    <TextView-->
+<!--        android:id="@+id/tvBadge"-->
+<!--        android:layout_width="wrap_content"-->
+<!--        android:layout_height="wrap_content"-->
+<!--        android:text="🏅 Badge"-->
+<!--        android:textSize="22sp"-->
+<!--        android:textColor="#4CAF50"-->
+<!--        android:textStyle="bold"-->
+<!--        android:layout_marginBottom="20dp" />-->
+
+<!--    <TextView-->
+<!--        android:id="@+id/tvMessage"-->
+<!--        android:layout_width="wrap_content"-->
+<!--        android:layout_height="wrap_content"-->
+<!--        android:text="🎮 Track your screen time and earn rewards!"-->
+<!--        android:textSize="16sp"-->
+<!--        android:textColor="#444"-->
+<!--        android:gravity="center"-->
+<!--        android:layout_marginTop="10dp" />-->
+<!--    <ListView-->
+<!--        android:id="@+id/listRewards"-->
+<!--        android:layout_width="match_parent"-->
+<!--        android:layout_height="wrap_content"-->
+<!--        android:layout_marginTop="20dp"/>-->
+
+<!--</LinearLayout>-->

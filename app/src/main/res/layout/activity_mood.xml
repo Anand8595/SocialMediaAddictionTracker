@@ -1,0 +1,167 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ScrollView xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@drawable/bg_gradient">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="vertical"
+        android:padding="20dp">
+
+        <!-- HEADER -->
+        <TextView
+            android:id="@+id/tvTitle"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Daily Mood Tracker"
+            android:textSize="22sp"
+            android:textStyle="bold"
+            android:textColor="#FFFFFF"
+            android:layout_marginBottom="20dp"/>
+
+        <!-- GLASS CARD -->
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="vertical"
+            android:padding="18dp"
+            android:background="@drawable/bg_glass_card">
+
+            <!-- QUESTION -->
+            <TextView
+                android:id="@+id/tvQuestion"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="How was your mood today?"
+                android:textSize="16sp"
+                android:textColor="#E0E0E0"/>
+
+            <!-- SEEKBAR -->
+            <SeekBar
+                android:id="@+id/seekMood"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:max="4"
+                android:layout_marginTop="20dp"
+                android:progressTint="#5DAEFF"
+                android:thumbTint="#5DAEFF"/>
+
+            <!-- MOOD SCORE -->
+            <TextView
+                android:id="@+id/tvMoodScore"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="Mood Score: 3"
+                android:textSize="20sp"
+                android:textStyle="bold"
+                android:textColor="#FFFFFF"
+                android:layout_marginTop="16dp"/>
+
+            <!-- MOOD TEXT -->
+            <TextView
+                android:id="@+id/tvMoodText"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="Neutral"
+                android:textSize="16sp"
+                android:textColor="#B0BEC5"
+                android:layout_marginTop="6dp"/>
+
+            <!-- INSIGHT -->
+            <TextView
+                android:id="@+id/tvInsight"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text=""
+                android:textSize="15sp"
+                android:textStyle="bold"
+                android:textColor="#81C784"
+                android:layout_marginTop="16dp"/>
+
+        </LinearLayout>
+
+        <!-- SAVE BUTTON -->
+        <Button
+            android:id="@+id/btnSaveMood"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="Save Mood"
+            android:textStyle="bold"
+            android:textColor="@android:color/white"
+            android:background="@drawable/bg_btn_blue"
+            android:backgroundTint="@null"
+            android:layout_marginTop="24dp"/>
+
+    </LinearLayout>
+
+</ScrollView>
+
+<!--<?xml version="1.0" encoding="utf-8"?>-->
+<!--<LinearLayout-->
+<!--    xmlns:android="http://schemas.android.com/apk/res/android"-->
+<!--    android:layout_width="match_parent"-->
+<!--    android:layout_height="match_parent"-->
+<!--    android:orientation="vertical"-->
+<!--    android:padding="20dp">-->
+
+<!--    <TextView-->
+<!--        android:id="@+id/tvTitle"-->
+<!--        android:layout_width="wrap_content"-->
+<!--        android:layout_height="wrap_content"-->
+<!--        android:text="Daily Mood Tracker"-->
+<!--        android:textSize="22sp"-->
+<!--        android:textStyle="bold"/>-->
+
+<!--    <TextView-->
+<!--        android:id="@+id/tvQuestion"-->
+<!--        android:layout_width="wrap_content"-->
+<!--        android:layout_height="wrap_content"-->
+<!--        android:text="How was your mood today?"-->
+<!--        android:textSize="16sp"-->
+<!--        android:layout_marginTop="16dp"/>-->
+
+<!--    &lt;!&ndash; SeekBar 1–5 &ndash;&gt;-->
+<!--    <SeekBar-->
+<!--        android:id="@+id/seekMood"-->
+<!--        android:layout_width="match_parent"-->
+<!--        android:layout_height="wrap_content"-->
+<!--        android:max="4"-->
+<!--        android:layout_marginTop="20dp"/>-->
+
+<!--    &lt;!&ndash; Mood Score &ndash;&gt;-->
+<!--    <TextView-->
+<!--        android:id="@+id/tvMoodScore"-->
+<!--        android:layout_width="wrap_content"-->
+<!--        android:layout_height="wrap_content"-->
+<!--        android:text="Mood Score: 3"-->
+<!--        android:textSize="18sp"-->
+<!--        android:textStyle="bold"-->
+<!--        android:layout_marginTop="16dp"/>-->
+
+<!--    &lt;!&ndash; Mood Description &ndash;&gt;-->
+<!--    <TextView-->
+<!--        android:id="@+id/tvMoodText"-->
+<!--        android:layout_width="wrap_content"-->
+<!--        android:layout_height="wrap_content"-->
+<!--        android:text="Neutral"-->
+<!--        android:textSize="16sp"-->
+<!--        android:layout_marginTop="8dp"/>-->
+
+<!--    <TextView-->
+<!--        android:id="@+id/tvInsight"-->
+<!--        android:layout_width="match_parent"-->
+<!--        android:layout_height="wrap_content"-->
+<!--        android:text=""-->
+<!--        android:textSize="16sp"-->
+<!--        android:textStyle="bold"-->
+<!--        android:layout_marginTop="20dp"/>-->
+<!--    <Button-->
+<!--        android:id="@+id/btnSaveMood"-->
+<!--        android:layout_width="match_parent"-->
+<!--        android:layout_height="wrap_content"-->
+<!--        android:text="Save Mood"-->
+<!--        android:layout_marginTop="24dp"/>-->
+
+<!--</LinearLayout>-->

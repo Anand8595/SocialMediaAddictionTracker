@@ -1,0 +1,28 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <color name="black">#FF000000</color>
+    <color name="white">#FFFFFFFF</color>
+    <color name="light_blue_600">#FF039BE5</color>
+    <color name="light_blue_900">#FF01579B</color>
+    <color name="light_blue_A200">#FF40C4FF</color>
+    <color name="light_blue_A400">#FF00B0FF</color>
+    <color name="black_overlay">#66000000</color>
+    <color name="selected">#1E88E5</color>
+    <color name="unselected">#E0E0E0</color>
+    <color name="primary">#2563EB</color>   <!-- clean blue -->
+    <color name="bg">#F8FAFC</color>        <!-- soft background -->
+    <color name="card">#FFFFFF</color>
+    <color name="textMain">#111827</color>
+    <color name="textSub">#6B7280</color>
+    <color name="border">#E5E7EB</color>
+    <color name="primaryBlue">#1E88E5</color>
+    <color name="primaryBlueLight">#BBDEFB</color>
+    <color name="background">#FFFFFF</color>
+    <color name="cardWhite">#FFFFFF</color>
+    <color name="textPrimary">#FFFFFF</color>
+    <color name="textSecondary">#666666</color>
+    <color name="dangerRed">#E53935</color>
+    <color name="purple">#6A1B9A</color>
+    <color name="lightGray">#E0E0E0</color>
+
+</resources>

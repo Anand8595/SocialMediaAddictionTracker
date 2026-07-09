@@ -1,0 +1,21 @@
+<layer-list xmlns:android="http://schemas.android.com/apk/res/android">
+
+    <!-- PURPLE BACKGROUND -->
+    <item>
+        <shape>
+            <gradient
+                android:angle="270"
+                android:startColor="#2C1E5A"
+                android:centerColor="#3B2A7A"
+                android:endColor="#4B3C9E"/>
+        </shape>
+    </item>
+
+    <!-- STARS IMAGE -->
+    <item>
+        <bitmap
+            android:src="@drawable/stars"
+            android:tileMode="repeat"/>
+    </item>
+
+</layer-list>

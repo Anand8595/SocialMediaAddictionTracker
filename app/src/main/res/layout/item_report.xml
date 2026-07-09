@@ -1,0 +1,418 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.cardview.widget.CardView xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:layout_margin="12dp"
+
+    app:cardCornerRadius="24dp"
+    app:cardElevation="0dp"
+    app:cardUseCompatPadding="true"
+    app:cardBackgroundColor="@android:color/transparent">
+
+    <!-- IMPORTANT: GLASS EFFECT HERE -->
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="vertical"
+        android:padding="16dp"
+        android:background="@drawable/bg_glass_card">
+
+        <!-- DATE -->
+        <TextView
+            android:id="@+id/tvDate"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="02 Apr 2026"
+            android:textStyle="bold"
+            android:textSize="18sp"
+            android:textColor="#FFFFFF"
+            android:layout_marginBottom="10dp"/>
+
+        <!-- Divider -->
+        <View
+            android:layout_width="match_parent"
+            android:layout_height="1dp"
+            android:background="#22FFFFFF"
+            android:layout_marginBottom="10dp"/>
+
+        <!-- YOUTUBE -->
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="horizontal"
+            android:gravity="center_vertical"
+            android:paddingVertical="8dp">
+
+            <ImageView
+                android:id="@+id/iconYoutube"
+                android:layout_width="36dp"
+                android:layout_height="36dp"
+                android:layout_marginEnd="12dp"/>
+
+            <TextView
+                android:layout_width="0dp"
+                android:layout_height="wrap_content"
+                android:layout_weight="1"
+                android:text="YouTube"
+                android:textColor="#FFFFFF"
+                android:textSize="15sp"/>
+
+            <TextView
+                android:id="@+id/tvYoutube"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="0 min"
+                android:textStyle="bold"
+                android:textColor="#FF6B6B"
+                android:textSize="14sp"/>
+        </LinearLayout>
+
+        <!-- INSTAGRAM -->
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="horizontal"
+            android:gravity="center_vertical"
+            android:paddingVertical="8dp">
+
+            <ImageView
+                android:id="@+id/iconInstagram"
+                android:layout_width="36dp"
+                android:layout_height="36dp"
+                android:layout_marginEnd="12dp"/>
+
+            <TextView
+                android:layout_width="0dp"
+                android:layout_height="wrap_content"
+                android:layout_weight="1"
+                android:text="Instagram"
+                android:textColor="#FFFFFF"
+                android:textSize="15sp"/>
+
+            <TextView
+                android:id="@+id/tvInstagram"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="0 min"
+                android:textStyle="bold"
+                android:textColor="#F06292"
+                android:textSize="14sp"/>
+        </LinearLayout>
+
+        <!-- FACEBOOK -->
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="horizontal"
+            android:gravity="center_vertical"
+            android:paddingVertical="8dp">
+
+            <ImageView
+                android:id="@+id/iconFacebook"
+                android:layout_width="36dp"
+                android:layout_height="36dp"
+                android:layout_marginEnd="12dp"/>
+
+            <TextView
+                android:layout_width="0dp"
+                android:layout_height="wrap_content"
+                android:layout_weight="1"
+                android:text="Facebook"
+                android:textColor="#FFFFFF"
+                android:textSize="15sp"/>
+
+            <TextView
+                android:id="@+id/tvFacebook"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="0 min"
+                android:textStyle="bold"
+                android:textColor="#64B5F6"
+                android:textSize="14sp"/>
+        </LinearLayout>
+
+        <!-- WHATSAPP -->
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="horizontal"
+            android:gravity="center_vertical"
+            android:paddingVertical="8dp">
+
+            <ImageView
+                android:id="@+id/iconWhatsapp"
+                android:layout_width="36dp"
+                android:layout_height="36dp"
+                android:layout_marginEnd="12dp"/>
+
+            <TextView
+                android:layout_width="0dp"
+                android:layout_height="wrap_content"
+                android:layout_weight="1"
+                android:text="WhatsApp"
+                android:textColor="#FFFFFF"
+                android:textSize="15sp"/>
+
+            <TextView
+                android:id="@+id/tvWhatsapp"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="0 min"
+                android:textStyle="bold"
+                android:textColor="#81C784"
+                android:textSize="14sp"/>
+        </LinearLayout>
+
+        <!-- CHROME -->
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="horizontal"
+            android:gravity="center_vertical"
+            android:paddingVertical="8dp">
+
+            <ImageView
+                android:id="@+id/iconChrome"
+                android:layout_width="36dp"
+                android:layout_height="36dp"
+                android:layout_marginEnd="12dp"/>
+
+            <TextView
+                android:layout_width="0dp"
+                android:layout_height="wrap_content"
+                android:layout_weight="1"
+                android:text="Chrome"
+                android:textColor="#FFFFFF"
+                android:textSize="15sp"/>
+
+            <TextView
+                android:id="@+id/tvChrome"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="0 min"
+                android:textStyle="bold"
+                android:textColor="#FFD54F"
+                android:textSize="14sp"/>
+        </LinearLayout>
+
+        <!-- TOTAL -->
+        <TextView
+            android:id="@+id/tvTotal"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="Total: 0 min"
+            android:textStyle="bold"
+            android:textSize="16sp"
+            android:textColor="#81C784"
+            android:layout_marginTop="12dp"/>
+
+    </LinearLayout>
+
+</androidx.cardview.widget.CardView>
+
+<!--<?xml version="1.0" encoding="utf-8"?>-->
+<!--<androidx.cardview.widget.CardView xmlns:android="http://schemas.android.com/apk/res/android"-->
+<!--    xmlns:app="http://schemas.android.com/apk/res-auto"-->
+<!--    android:layout_margin="10dp"-->
+<!--    android:layout_width="match_parent"-->
+<!--    android:layout_height="wrap_content"-->
+<!--    app:cardCornerRadius="16dp"-->
+<!--    app:cardElevation="6dp"-->
+<!--    android:backgroundTint="@android:color/white">-->
+
+<!--    <LinearLayout-->
+<!--        android:orientation="vertical"-->
+<!--        android:padding="16dp"-->
+<!--        android:layout_width="match_parent"-->
+<!--        android:layout_height="wrap_content">-->
+
+<!--        &lt;!&ndash; DATE &ndash;&gt;-->
+<!--        <TextView-->
+<!--            android:id="@+id/tvDate"-->
+<!--            android:layout_width="wrap_content"-->
+<!--            android:layout_height="wrap_content"-->
+<!--            android:text="02 Apr 2026"-->
+<!--            android:textStyle="bold"-->
+<!--            android:textSize="18sp"-->
+<!--            android:textColor="#222222"-->
+<!--            android:layout_marginBottom="10dp"/>-->
+
+<!--        &lt;!&ndash; Divider &ndash;&gt;-->
+<!--        <View-->
+<!--            android:layout_width="match_parent"-->
+<!--            android:layout_height="1dp"-->
+<!--            android:background="#E0E0E0"-->
+<!--            android:layout_marginBottom="10dp"/>-->
+
+<!--        &lt;!&ndash; YOUTUBE &ndash;&gt;-->
+<!--        <LinearLayout-->
+<!--            android:layout_width="match_parent"-->
+<!--            android:layout_height="wrap_content"-->
+<!--            android:orientation="horizontal"-->
+<!--            android:gravity="center_vertical"-->
+<!--            android:paddingVertical="6dp">-->
+
+<!--            <ImageView-->
+<!--                android:id="@+id/iconYoutube"-->
+<!--                android:layout_width="28dp"-->
+<!--                android:layout_height="28dp"-->
+<!--                android:layout_marginEnd="10dp"/>-->
+
+<!--            <TextView-->
+<!--                android:layout_weight="1"-->
+<!--                android:text="YouTube"-->
+<!--                android:textColor="#444"-->
+<!--                android:textSize="14sp"-->
+<!--                android:layout_width="0dp"-->
+<!--                android:layout_height="wrap_content"/>-->
+
+<!--            <TextView-->
+<!--                android:id="@+id/tvYoutube"-->
+<!--                android:text="0 min"-->
+<!--                android:textStyle="bold"-->
+<!--                android:textSize="14sp"-->
+<!--                android:layout_width="wrap_content"-->
+<!--                android:layout_height="wrap_content"/>-->
+<!--        </LinearLayout>-->
+
+<!--        &lt;!&ndash; INSTAGRAM &ndash;&gt;-->
+<!--        <LinearLayout-->
+<!--            android:layout_width="match_parent"-->
+<!--            android:layout_height="wrap_content"-->
+<!--            android:orientation="horizontal"-->
+<!--            android:gravity="center_vertical"-->
+<!--            android:paddingVertical="6dp">-->
+
+<!--            <ImageView-->
+<!--                android:id="@+id/iconInstagram"-->
+<!--                android:layout_width="28dp"-->
+<!--                android:layout_height="28dp"-->
+<!--                android:layout_marginEnd="10dp"/>-->
+
+<!--            <TextView-->
+<!--                android:layout_weight="1"-->
+<!--                android:text="Instagram"-->
+<!--                android:textColor="#444"-->
+<!--                android:textSize="14sp"-->
+<!--                android:layout_width="0dp"-->
+<!--                android:layout_height="wrap_content"/>-->
+
+<!--            <TextView-->
+<!--                android:id="@+id/tvInstagram"-->
+<!--                android:text="0 min"-->
+<!--                android:textStyle="bold"-->
+<!--                android:textSize="14sp"-->
+<!--                android:layout_width="wrap_content"-->
+<!--                android:layout_height="wrap_content"/>-->
+<!--        </LinearLayout>-->
+
+<!--        &lt;!&ndash; FACEBOOK &ndash;&gt;-->
+<!--        <LinearLayout-->
+<!--            android:layout_width="match_parent"-->
+<!--            android:layout_height="wrap_content"-->
+<!--            android:orientation="horizontal"-->
+<!--            android:gravity="center_vertical"-->
+<!--            android:paddingVertical="6dp">-->
+
+<!--            <ImageView-->
+<!--                android:id="@+id/iconFacebook"-->
+<!--                android:layout_width="28dp"-->
+<!--                android:layout_height="28dp"-->
+<!--                android:layout_marginEnd="10dp"/>-->
+
+<!--            <TextView-->
+<!--                android:layout_weight="1"-->
+<!--                android:text="Facebook"-->
+<!--                android:textColor="#444"-->
+<!--                android:textSize="14sp"-->
+<!--                android:layout_width="0dp"-->
+<!--                android:layout_height="wrap_content"/>-->
+
+<!--            <TextView-->
+<!--                android:id="@+id/tvFacebook"-->
+<!--                android:text="0 min"-->
+<!--                android:textStyle="bold"-->
+<!--                android:textSize="14sp"-->
+<!--                android:layout_width="wrap_content"-->
+<!--                android:layout_height="wrap_content"/>-->
+<!--        </LinearLayout>-->
+
+<!--        &lt;!&ndash; WHATSAPP &ndash;&gt;-->
+<!--        <LinearLayout-->
+<!--            android:layout_width="match_parent"-->
+<!--            android:layout_height="wrap_content"-->
+<!--            android:orientation="horizontal"-->
+<!--            android:gravity="center_vertical"-->
+<!--            android:paddingVertical="6dp">-->
+
+<!--            <ImageView-->
+<!--                android:id="@+id/iconWhatsapp"-->
+<!--                android:layout_width="28dp"-->
+<!--                android:layout_height="28dp"-->
+<!--                android:layout_marginEnd="10dp"/>-->
+
+<!--            <TextView-->
+<!--                android:layout_weight="1"-->
+<!--                android:text="WhatsApp"-->
+<!--                android:textColor="#444"-->
+<!--                android:textSize="14sp"-->
+<!--                android:layout_width="0dp"-->
+<!--                android:layout_height="wrap_content"/>-->
+
+<!--            <TextView-->
+<!--                android:id="@+id/tvWhatsapp"-->
+<!--                android:text="0 min"-->
+<!--                android:textStyle="bold"-->
+<!--                android:textSize="14sp"-->
+<!--                android:layout_width="wrap_content"-->
+<!--                android:layout_height="wrap_content"/>-->
+<!--        </LinearLayout>-->
+
+<!--        &lt;!&ndash; CHROME &ndash;&gt;-->
+<!--        <LinearLayout-->
+<!--            android:layout_width="match_parent"-->
+<!--            android:layout_height="wrap_content"-->
+<!--            android:orientation="horizontal"-->
+<!--            android:gravity="center_vertical"-->
+<!--            android:paddingVertical="6dp">-->
+
+<!--            <ImageView-->
+<!--                android:id="@+id/iconChrome"-->
+<!--                android:layout_width="28dp"-->
+<!--                android:layout_height="28dp"-->
+<!--                android:layout_marginEnd="10dp"/>-->
+
+<!--            <TextView-->
+<!--                android:layout_weight="1"-->
+<!--                android:text="Chrome"-->
+<!--                android:textColor="#444"-->
+<!--                android:textSize="14sp"-->
+<!--                android:layout_width="0dp"-->
+<!--                android:layout_height="wrap_content"/>-->
+
+<!--            <TextView-->
+<!--                android:id="@+id/tvChrome"-->
+<!--                android:text="0 min"-->
+<!--                android:textStyle="bold"-->
+<!--                android:textSize="14sp"-->
+<!--                android:layout_width="wrap_content"-->
+<!--                android:layout_height="wrap_content"/>-->
+<!--        </LinearLayout>-->
+
+<!--        &lt;!&ndash; TOTAL &ndash;&gt;-->
+<!--        <TextView-->
+<!--            android:id="@+id/tvTotal"-->
+<!--            android:layout_width="match_parent"-->
+<!--            android:layout_height="wrap_content"-->
+<!--            android:text="Total: 0 min"-->
+<!--            android:textStyle="bold"-->
+<!--            android:textSize="16sp"-->
+<!--            android:textColor="#4CAF50"-->
+<!--            android:layout_marginTop="12dp"/>-->
+
+<!--    </LinearLayout>-->
+
+<!--</androidx.cardview.widget.CardView>-->
+
+
