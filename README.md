@@ -87,7 +87,7 @@ git clone https://github.com/Anand8595/SocialMediaAddictionTracker.git
 ## 🏠 Home Screen
 
 <p align="center">
-  <img src="home1.jpeg" alt="Home Screen" width="350"/>
+  <img src="home1.jpeg" alt="Home Screen" width="250"/>
 </p>
 
 ---
@@ -95,7 +95,7 @@ git clone https://github.com/Anand8595/SocialMediaAddictionTracker.git
 ## 🎯 Focus Mode
 
 <p align="center">
-  <img src="focus_mode.jpeg" alt="Focus Mode" width="350"/>
+  <img src="focus_mode.jpeg" alt="Focus Mode" width="250"/>
 </p>
 
 ---
@@ -103,7 +103,7 @@ git clone https://github.com/Anand8595/SocialMediaAddictionTracker.git
 ## 😊 Mood Tracker
 
 <p align="center">
-  <img src="save_mood.jpeg" alt="Mood Tracker" width="350"/>
+  <img src="save_mood.jpeg" alt="Mood Tracker" width="250"/>
 </p>
 
 ---
@@ -111,7 +111,7 @@ git clone https://github.com/Anand8595/SocialMediaAddictionTracker.git
 ## 📊 Digital Insights
 
 <p align="center">
-  <img src="digital_insights.jpeg" alt="Digital Insights" width="350"/>
+  <img src="digital_insights.jpeg" alt="Digital Insights" width="250"/>
 </p>
 
 ---
@@ -119,7 +119,7 @@ git clone https://github.com/Anand8595/SocialMediaAddictionTracker.git
 ## 🏆 Rewards
 
 <p align="center">
-  <img src="daily_rewards.jpeg" alt="Rewards" width="350"/>
+  <img src="daily_rewards.jpeg" alt="Rewards" width="250"/>
 </p>
 
 ---
@@ -127,7 +127,7 @@ git clone https://github.com/Anand8595/SocialMediaAddictionTracker.git
 ## 📈 Usage Report
 
 <p align="center">
-  <img src="usage_report.jpeg" alt="Usage Report" width="350"/>
+  <img src="usage_report.jpeg" alt="Usage Report" width="250"/>
 </p>
 
 ---
@@ -135,7 +135,7 @@ git clone https://github.com/Anand8595/SocialMediaAddictionTracker.git
 ## 🛒 Shopping Website
 
 <p align="center">
-  <img src="shopping_website.jpeg" alt="Shopping Website" width="350"/>
+  <img src="shopping_website.jpeg" alt="Shopping Website" width="250"/>
 </p>
 
 ---
