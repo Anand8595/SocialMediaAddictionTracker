@@ -86,7 +86,7 @@ git clone https://github.com/Anand8595/SocialMediaAddictionTracker.git
 
 You can download the application from:
 
-[📥 Download APK](apk/socialmedia.apk)
+[📥 Download APK](socialmedia.apk)
 
 ---
 
